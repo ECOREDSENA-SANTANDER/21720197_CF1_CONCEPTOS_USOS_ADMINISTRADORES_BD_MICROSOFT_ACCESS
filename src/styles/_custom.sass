@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 25%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 61%
+    right: 82%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 57%
+    right: 20%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -17,10 +21,8 @@
     transform: translateY(0px)
   
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  max-width: 450px !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 .banner-interno__titulo__icono i
@@ -28,3 +30,95 @@
 figcaption
   font-weight: normal
  
+
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.banner-interno .banner-interno__fondo
+  background-image:  url('../assets/curso/portada/mini-portada.png') !important
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2  
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
+.ct-color-primario
+  color: $color-primario
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.tc-sec 
+  color: $color-secundario !important
+.tc-ac 
+  color: $color-acento-contenido !important
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+.br-top
+  border-top-left-radius: 20px 
+  border-top-right-radius: 20px 
+.br-left
+  border-top-left-radius: 20px 
+  border-bottom-left-radius: 20px 
+.br-right
+  border-top-right-radius: 20px 
+  border-bottom-right-radius: 20px 
+
+
+.bg1
+  background-color: #F7E6E8
+.bg2
+  background-color: #EFE9FB 
+.bg3
+  background-color:  #BFAAEF
+.bgc-1
+  background-image: url('../assets/curso/temas/t1/bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+
+
+.w-80x
+  width: 80px
+
+
+.cajon.color-secundario
+  background-color: #EFEBEB
+.tarjeta-audio.color-primario 
+  .tarjeta-audio__texto
+    color: $color-sistema-texto
+    font-style: normal !important
+  .audio__btn
+    background-color: $color-acento-botones
