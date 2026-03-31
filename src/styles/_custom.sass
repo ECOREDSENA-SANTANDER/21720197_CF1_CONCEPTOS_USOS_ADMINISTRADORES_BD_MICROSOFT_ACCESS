@@ -88,6 +88,8 @@ figcaption
 .br-right
   border-top-right-radius: 20px 
   border-bottom-right-radius: 20px 
+.tabs-a__tab__text 
+  white-space: normal
 
 
 .bg1
@@ -95,7 +97,15 @@ figcaption
 .bg2
   background-color: #EFE9FB 
 .bg3
-  background-color:  #BFAAEF
+  background-color: #BFAAEF
+.bg4
+  background-color: #C2B2B2
+.bg5
+  background-color: #DF9EA5
+.bg6
+  background-color: #F7F5FB
+.bg7
+  background-color: #EFEBEB
 .bgc-1
   background-image: url('../assets/curso/temas/t1/bg.png')
   background-position: center
@@ -108,11 +118,66 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
+.bgi-1
+  background-image: url('../assets/curso/temas/t1/bg2.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.bgi-2
+  background-image: url('../assets/curso/temas/t2/bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
 
 
 .w-80x
   width: 80px
-
+.color-adicional-1--borde
+  border: solid 4px $color-adicional-1
+.subt
+  display: flex
+  align-items: flex-end
+  position: relative
+  width: fit-content
+  img 
+    width: 90px
+    z-index: 99
+  h3
+    color: $white
+    z-index: 99  
+  &::before
+    content: ''
+    position: absolute
+    width: 98%
+    height: 70%
+    background-color: #680713
+    border-radius: 100px
+    left: 20px
+    bottom: 7px
+  @media (max-width: $bp-max-xs)
+    &::before
+      bottom: -2px
+      height: 95%
+.subt2
+  display: flex
+  align-items: center
+  position: relative
+  width: fit-content
+  i 
+    color: $color-primario
+    font-size: 0.7rem
+    margin-right: 10px
+  &::before
+    content: ''
+    position: absolute
+    width: 55%
+    height: 6px
+    background-color: #673F3F
+    border-radius: 100px
+    border-radius: 100px
+    left: 0px
+    bottom: 0px
+  
 
 .cajon.color-secundario
   background-color: #EFEBEB
@@ -122,3 +187,123 @@ figcaption
     font-style: normal !important
   .audio__btn
     background-color: $color-acento-botones
+.slyder-f__btn i
+  color: $color-acento-botones
+.tb
+  .acordion__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  .acordion__activo
+    background-color: #EFEBEB
+.tabs-a__tab
+  background-color: #C2B2B2
+.linea-tiempo-d
+  &__item__content__title
+    background-color: #C2B2B2
+    border-radius: 5px
+    font-weight: bold
+  &__item__number
+    background-color: #673F3F
+    color: $white
+    font-weight: bold
+  &__item--selected 
+    .linea-tiempo-d__item__content, .linea-tiempo-d__item__content__title
+      background-color: #EFEBEB
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 0.9
+  &__bullets__item
+    background-color: #DF9EA5
+    border-color: #DF9EA5
+    &--active
+      background-color: $color-primario
+      border-color: $color-primario
+
+
+.t1
+  position: relative
+  .t1-p1
+    position: relative
+    h4      
+      color: $white
+      z-index: 99
+      position: relative
+      padding: 10px 17px
+    &::before
+      content: ''
+      position: absolute
+      width: 70%
+      height: 100%
+      background-color: $color-primario
+      border-top-right-radius: 100px
+      border-bottom-right-radius: 100px
+      left: 0px
+      bottom: 0px
+  .t1-p2
+    position: relative
+    h4      
+      color: $white
+      z-index: 99
+      position: relative
+      padding: 10px 17px
+    &::before
+      content: ''
+      position: absolute
+      width: 70%
+      height: 100%
+      background-color: $color-secundario
+      border-top-right-radius: 100px
+      border-bottom-right-radius: 100px
+      left: 0px
+      bottom: 0px
+  .t1-p3
+    position: relative
+    h4      
+      color: $white
+      z-index: 99
+      position: relative
+      padding: 10px 17px
+    &::before
+      content: ''
+      position: absolute
+      width: 70%
+      height: 100%
+      background-color: $color-acento-contenido
+      border-top-right-radius: 100px
+      border-bottom-right-radius: 100px
+      left: 0px
+      bottom: 0px
+  .t1-p4
+    position: relative
+    h4      
+      z-index: 99
+      position: relative
+      padding: 10px 17px
+    &::before
+      content: ''
+      position: absolute
+      width: 70%
+      height: 100%
+      background-color: $color-acento-botones
+      border-top-right-radius: 100px
+      border-bottom-right-radius: 100px
+      left: 0px
+      bottom: 0px
+  .t1-p5
+    position: relative
+    h4      
+      z-index: 99
+      position: relative
+      padding: 10px 17px
+    &::before
+      content: ''
+      position: absolute
+      width: 70%
+      height: 100%
+      background-color: $color-adicional-1
+      border-top-right-radius: 100px
+      border-bottom-right-radius: 100px
+      left: 0px
+      bottom: 0px

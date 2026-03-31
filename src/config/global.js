@@ -62,7 +62,7 @@ export default {
           {
             numero: '2.2',
             titulo:
-              'Gestión de información con Structured Query Language (SQL)',
+              'Gestión de información con <em>Structured Query Language</em> (SQL)',
             hash: 't_2_2',
           },
           {

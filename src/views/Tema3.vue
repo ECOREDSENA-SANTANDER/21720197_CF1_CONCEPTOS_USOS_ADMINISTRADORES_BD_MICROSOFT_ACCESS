@@ -19,9 +19,9 @@
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
-          .row.justify-content-center.mb-5
+          .row.justify-content-center
             .col-lg-10
-              .titulo-sexto.color-acento-contenido
+              .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 6. 
                 span Flujo bidireccional de información con Microsoft Access
               figure
@@ -76,7 +76,7 @@
         img(src='@/assets/curso/temas/t3/2.svg', alt='')
       .col-lg-4.mb-3 
         img.mb-3.w-80x(src='@/assets/curso/temas/t3/3.svg', alt='')
-        p A diferencia de la importación tradicional (donde se crea una copia estática de los datos en el disco local), la vinculación a través de internet permite que Access actúe como una interfaz de usuario o "Front - end", mientras que los datos reales residen en un servidor web remoto o "Back - end". Esto significa que cualquier cambio realizado mediante formularios o consultas SQL en Access se actualizará en tiempo real en la nube, permitiendo el trabajo colaborativo simultáneo desde diferentes ubicaciones geográficas. 
+        p A diferencia de la importación tradicional (donde se crea una copia estática de los datos en el disco local), la vinculación a través de internet permite que Access actúe como una interfaz de usuario o "#[em Front - end]", mientras que los datos reales residen en un servidor web remoto o "#[em Back - end]". Esto significa que cualquier cambio realizado mediante formularios o consultas SQL en Access se actualizará en tiempo real en la nube, permitiendo el trabajo colaborativo simultáneo desde diferentes ubicaciones geográficas. 
 
     .bloque-texto-g.bloque-texto-g--inverso.bg3.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
