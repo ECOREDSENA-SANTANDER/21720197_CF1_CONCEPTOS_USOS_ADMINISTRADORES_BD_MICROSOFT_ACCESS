@@ -16,7 +16,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Definición y naturaleza de los tipos de datos 
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Definición y naturaleza de los tipos de datos 
 
     p En el entorno de Microsoft Access, un "tipo de dato" determina la clase de información que puede almacenarse en un campo específico de una tabla, así como las operaciones matemáticas o lógicas que se pueden realizar con él y el espacio de almacenamiento que ocupará en la memoria del sistema. Asignar el tipo de dato correcto es análogo a elegir el recipiente adecuado para un material específico en un laboratorio: no se almacenaría un gas volátil en una caja de cartón, del mismo modo que no se debe almacenar un cálculo monetario en un campo de texto simple.
     p Los tipos de datos más comunes y relevantes en Access incluyen: 
@@ -67,7 +67,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Atributos y propiedades de los campos 
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Atributos y propiedades de los campos 
 
     p Mientras que el tipo de dato define la naturaleza general de la información, los atributos o propiedades del campo son las reglas de negocio específicas que refinan, validan y formatean esa información. Las propiedades actúan como filtros de seguridad y diseño. 
     p Las propiedades más determinantes son: 
@@ -143,7 +143,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Aplicación práctica de atributos en el panel de propiedades 
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Aplicación práctica de atributos en el panel de propiedades 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
@@ -190,7 +190,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Aplicación de macros y automatización de procesos 
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Aplicación de macros y automatización de procesos 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")

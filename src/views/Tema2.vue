@@ -17,7 +17,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Naturaleza de los eventos en el entorno de bases de datos
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Naturaleza de los eventos en el entorno de bases de datos
 
     p Un evento es cualquier interacción o cambio de estado reconocido por el sistema. Los eventos actúan como los "gatillos" que disparan una respuesta programada. Entre los más utilizados en la gestión de interfaces (formularios) se encuentran: 
 
@@ -39,7 +39,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Relación con la formación mediada por TIC y roles educativos
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Relación con la formación mediada por TIC y roles educativos
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-1.col-md-2.col-3
@@ -97,7 +97,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Estructuras de control lógicas en macros
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Estructuras de control lógicas en macros
 
     p Para que una macro sea verdaderamente funcional y no una simple repetición ciega de acciones, debe incorporar estructuras de control, que son los fundamentos de la lógica computacional: 
 
@@ -201,7 +201,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Anatomía de una consulta de selección básica 
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Anatomía de una consulta de selección básica 
 
     p Para que el motor de bases de datos comprenda la petición, la sintaxis debe respetar un orden lógico inquebrantable. Los componentes fundamentales de una consulta de extracción son: 
 
@@ -251,7 +251,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ps-3.p-md-3.ps-lg-4.pe-lg-5 Proceso de implementación de código SQL en Access
+      h3.mb-0.ps-3.p-md-2.ps-lg-4.pe-lg-5 Proceso de implementación de código SQL en Access
 
     p El desarrollo de consultas mediante lenguaje estructurado dentro del entorno de Microsoft Access sigue un procedimiento metodológico claro que el aprendiz debe interiorizar: 
 

@@ -305,7 +305,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Carlos Andres Bonza Reyes',
+          nombre: 'Carlos Andrés Bonza Reyes',
           cargo: 'Experto temático',
           centro: 'Centro Agroturístico - Regional Santander',
         },
