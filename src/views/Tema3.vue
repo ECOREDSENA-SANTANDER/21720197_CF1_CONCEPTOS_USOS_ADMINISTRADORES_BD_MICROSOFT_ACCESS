@@ -40,14 +40,14 @@
           .row.mb-4
             .col-lg-2.col-md-2.col-3
               img(src='@/assets/curso/temas/t3/tarj1-1.svg', alt='')
-          h4 El proceso de Importación local 
+          h4 El proceso de importación local 
           p.mb-0 Importar no es simplemente "copiar y pegar" datos. Es un proceso crítico de transformación donde la información externa no estructurada (o estructurada de manera diferente) se somete a las reglas de negocio de la base de datos receptora. Cuando un administrador importa una hoja de cálculo a Access, debe realizar un mapeo de datos. Esto significa que debe indicarle al sistema a qué tabla de destino irán los datos y asegurar que las columnas de Excel coincidan lógicamente con los tipos de datos y atributos previamente configurados en Access. Si la columna de Excel contiene letras, pero el campo de Access está tipificado como "Número", el proceso de importación arrojará un error de conversión. 
       .col-lg-6.mb-3
         .bg2.tarjeta.p-4.p-lg-5.h-100
           .row.mb-4
             .col-lg-2.col-md-2.col-3
               img(src='@/assets/curso/temas/t3/tarj1-2.svg', alt='')
-          h4 El proceso de Exportación local 
+          h4 El proceso de exportación local 
           p.mb-0 La exportación es el proceso inverso. Ocurre frecuentemente después de que el administrador ha utilizado el lenguaje de consultas SQL para extraer un conjunto de datos específico. Por ejemplo, tras ejecutar una consulta que filtra a los aprendices con rendimiento sobresaliente, ese resultado (esa tabla virtual) puede exportarse a Excel para que el departamento de bienestar estudiantil realice gráficos dinámicos, o a un archivo PDF para generar un boletín inmodificable y listo para impresión. 
 
     .row.justify-content-center
@@ -57,7 +57,7 @@
           .p-4
             .bg-white.tarjeta.p-4
               TarjetaAudio.color-primario(
-                texto="El proceso de Importación local"
+                texto="El proceso de importación local"
                 :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )

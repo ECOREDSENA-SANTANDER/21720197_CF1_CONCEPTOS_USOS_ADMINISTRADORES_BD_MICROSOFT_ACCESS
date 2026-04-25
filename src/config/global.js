@@ -270,7 +270,7 @@ export default {
     },
     {
       referencia:
-        'Martínez, C., & Silva, R. (2022). Arquitectura de datos y restricciones lógicas: Previniendo el error humano mediante software. Anales de la Informática Educativa, 33(4), 200-215.',
+        'Morales, J., Torres, A., & Ramírez, E. (2021). Transformación digital y administración estratégica de datos. Ediciones de la Universidad Politécnica.',
     },
     {
       referencia:
@@ -292,7 +292,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -340,12 +340,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

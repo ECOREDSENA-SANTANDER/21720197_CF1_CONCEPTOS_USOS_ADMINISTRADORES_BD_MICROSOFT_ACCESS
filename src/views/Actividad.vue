@@ -229,7 +229,7 @@ export default {
         {
           id: 7,
           texto:
-            'En programación orientada a eventos dentro de Access, el evento Al hacer clic (<em>On Click</em>) ocurre cuando:',
+            'En programación orientada a eventos dentro de Access, el evento al hacer clic (<em>On Click</em>) ocurre cuando:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [

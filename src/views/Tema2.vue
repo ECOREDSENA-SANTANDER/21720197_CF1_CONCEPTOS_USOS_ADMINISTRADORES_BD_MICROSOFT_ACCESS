@@ -76,7 +76,7 @@
     .row.justify-content-center.mb-4(data-aos="fade")
       .col-lg-4.mb-3
         .bg2.p-4.h-100.d-flex.align-items-center
-          p.mb-0 En Microsoft Access, una macro es una herramienta de programación visual que permite automatizar tareas y agregar funcionalidad a los formularios, informes y controles sin necesidad de escribir código en Visual Basic para Aplicaciones (VBA). Es el puente perfecto entre las necesidades de gestión de datos y la programación estructurada. 
+          p.mb-0 En Microsoft Access, una macro es una herramienta de programación visual que permite automatizar tareas y agregar funcionalidad a los formularios, informes y controles sin necesidad de escribir código en Visual Basic para aplicaciones (VBA). Es el puente perfecto entre las necesidades de gestión de datos y la programación estructurada. 
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t2/4.png', alt='')
       .col-lg-4.mb-3 
@@ -128,7 +128,7 @@
             p.mb-1 Definir con claridad el objetivo que se desea lograr. 
             p.mb-0 Ejemplo: crear un botón que permita abrir el formulario de “calificaciones del estudiante”, únicamente si el estudiante se encuentra previamente matriculado
           div(numero="2" titulo="Paso 2: identificación del evento detonante")
-            p.mb-0 Determinar el momento en que se ejecutará la acción. En este caso, corresponde al evento #[b “Al hacer clic”] sobre el botón del menú principal.
+            p.mb-0 Determinar el momento en que se ejecutará la acción. En este caso, corresponde al evento #[b “al hacer clic”] sobre el botón del menú principal.
           div(numero="3" titulo="Paso 3: apertura del generador de macros")
             p.mb-0 Desde la hoja de propiedades del botón seleccionado, se accede al generador de macros para iniciar la construcción de la lógica.  
           div(numero="4" titulo="Paso 4: inserción de la lógica condicional")
@@ -263,13 +263,13 @@
               p.mb-0 Desde la cinta de opciones principal, se navega a la pestaña #[b Crear] y se selecciona #[b Diseño de consulta]. Access, por defecto, intentará mostrar el cuadro de diálogo para agregar tablas de forma gráfica; el diseñador debe cerrar este cuadro.
           .row(titulo="Transición a la Vista SQL")
             .col-11
-              p.mb-0 En la esquina superior izquierda de la pantalla, en el grupo #[b Vistas], se debe desplegar el menú y seleccionar explícitamente #[b Vista SQL]. Inmediatamente, la cuadrícula gráfica desaparece, dando paso a un editor de texto en blanco encabezado por la palabra reservada #[b SELECT]. Este constituye el lienzo del administrador de bases de datos.
+              p.mb-0 En la esquina superior izquierda de la pantalla, en el grupo #[b Vistas], se debe desplegar el menú y seleccionar explícitamente #[b Vista SQL]. Inmediatamente, la cuadrícula gráfica desaparece, dando paso a un editor de texto en blanco encabezado por la palabra reservada #[b #[em SELECT]]. Este constituye el lienzo del administrador de bases de datos.
           .row(titulo="Redacción de la instrucción")
             .col-11
               p.mb-0 El aprendiz procede a escribir la sintaxis. Como buena práctica (y altamente recomendado por motivos de legibilidad), se deben escribir las palabras reservadas de SQL en #[b MAYÚSCULAS], mientras que los nombres de las tablas y campos deben mantenerse tal como fueron definidos en la arquitectura inicial.
           .row(titulo="Uso de operadores relacionales y lógicos")
             .col-11
-              p.mb-0 En la cláusula #[b WHERE], el entorno de Access soporta el uso de operadores matemáticos #[b (=, <, >, <=, >=, <>) ] y operadores lógicos #[b (AND, OR, NOT)]. La correcta combinación de estos operadores es lo que otorga precisión a la consulta.
+              p.mb-0 En la cláusula #[b #[em WHERE]], el entorno de Access soporta el uso de operadores matemáticos #[b (=, <, >, <=, >=, <>) ] y operadores lógicos #[b #[em (AND, OR, NOT)]]. La correcta combinación de estos operadores es lo que otorga precisión a la consulta.
           .row(titulo="Ejecución de la consulta")
             .col-11
               p.mb-0 Una vez redactada la instrucción, terminada con un punto y coma (;), se debe ubicar el botón #[b Ejecutar] (representado por un ícono de signo de exclamación rojo !) en la cinta de opciones. Al presionarlo, el motor procesa el código textual
