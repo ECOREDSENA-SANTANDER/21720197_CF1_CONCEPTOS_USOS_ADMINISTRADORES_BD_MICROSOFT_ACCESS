@@ -76,7 +76,7 @@
     .row.justify-content-center.mb-4(data-aos="fade")
       .col-lg-4.mb-3
         .bg2.p-4.h-100.d-flex.align-items-center
-          p.mb-0 En Microsoft Access, una macro es una herramienta de programación visual que permite automatizar tareas y agregar funcionalidad a los formularios, informes y controles sin necesidad de escribir código en Visual Basic para aplicaciones (VBA). Es el puente perfecto entre las necesidades de gestión de datos y la programación estructurada. 
+          p.mb-0 En Microsoft Access, una macro es una herramienta de programación visual que permite automatizar tareas y agregar funcionalidad a los formularios, informes y controles sin necesidad de escribir código en Visual Basic para Aplicaciones (VBA). Es el puente perfecto entre las necesidades de gestión de datos y la programación estructurada. 
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t2/4.png', alt='')
       .col-lg-4.mb-3 
