@@ -432,7 +432,7 @@ export default {
         {
           id: 13,
           texto:
-            '¿Qué función cumple la cláusula WHERE en una instrucción SQL?',
+            '¿Qué función cumple la cláusula <em>WHERE</em> en una instrucción SQL?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -460,7 +460,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con WHERE como filtro principal de una consulta.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con <em>WHERE</em> como filtro principal de una consulta.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las cláusulas básicas del lenguaje SQL.',
         },
