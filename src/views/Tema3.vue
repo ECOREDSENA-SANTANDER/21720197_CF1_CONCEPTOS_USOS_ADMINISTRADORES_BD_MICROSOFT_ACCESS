@@ -45,7 +45,7 @@
           .bg-white.tarjeta.p-4.mb-0
             TarjetaAudio.color-primario(
               texto="El proceso de importación local"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/podcast.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
