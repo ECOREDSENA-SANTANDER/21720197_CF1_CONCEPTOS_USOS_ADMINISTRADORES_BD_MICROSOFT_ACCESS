@@ -35,7 +35,7 @@
           .tarjeta.bg7.p-4(titulo="Al recibir el enfoque (<em>on got focus</em>)")
             p Sucede cuando el cursor entra en un campo de texto. Sirve para mostrar ayudas, resaltar campos o guiar al usuario.          
 
-    p.mb-5 A modo de analogía en un salón de clase tradicional, el evento "al hacer clic" sería equivalente a un estudiante levantando la mano. El sistema (el docente) reconoce este evento y ejecuta una macro (dar la palabra al estudiante). Si la mano no se levanta, la acción no se ejecuta. 
+    p.mb-5 A modo de analogía en un salón de clase tradicional, el evento "al hacer clic" sería equivalente a un aprendiz levantando la mano. El sistema (el docente) reconoce este evento y ejecuta una macro (dar la palabra al aprendiz). Si la mano no se levanta, la acción no se ejecuta. 
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
@@ -45,20 +45,20 @@
       .col-lg-1.col-md-2.col-3
         img(src='@/assets/curso/temas/t2/3.svg', alt='')
       .col-lg-11.col-md-10.col-9
-        p.mb-0 La inserción de la lógica de programación en la educación mediada por TIC fomenta el desarrollo de competencias de resolución de problemas. Según diversos autores contemporáneos en didáctica tecnológica, enseñar a programar a través de interfaces visuales reduce la barrera de entrada y la frustración inicial, permitiendo que el estudiante se concentre en la lógica del problema y no en la sintaxis del código (López y Martínez, 2021). 
+        p.mb-0 La inserción de la lógica de programación en la educación mediada por TIC fomenta el desarrollo de competencias de resolución de problemas. Según diversos autores contemporáneos en didáctica tecnológica, enseñar a programar a través de interfaces visuales reduce la barrera de entrada y la frustración inicial, permitiendo que el aprendiz se concentre en la lógica del problema y no en la sintaxis del código (López y Martínez, 2021). 
     
     .tarjeta.bgi-2.p-4
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
           .col-lg-5.col-11
             h4 Rol del docente 
-            p En la enseñanza de estos conceptos, el docente debe alejarse de la instrucción mecanicista ("haga clic aquí y luego allá"). Su rol es plantear escenarios problémicos de automatización, retando a los estudiantes con preguntas como: "¿cómo evitamos que un usuario borre un registro por accidente?". 
+            p En la enseñanza de estos conceptos, el docente debe alejarse de la instrucción mecanicista ("haga clic aquí y luego allá"). Su rol es plantear escenarios problémicos de automatización, retando a los aprendizs con preguntas como: "¿cómo evitamos que un usuario borre un registro por accidente?". 
           .col-lg-5.col-md-9.col-11
             img(src='@/assets/curso/temas/t2/slider1-1.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
           .col-lg-5.col-11
             h4 Rol del aprendiz 
-            p El estudiante deja de ser un consumidor de #[em software] y se convierte en creador de soluciones. Debe anticipar el error humano, planificando y estructurando flujos de trabajo (#[em workflows]) que protejan la integridad de la base de datos. 
+            p El aprendiz deja de ser un consumidor de #[em software] y se convierte en creador de soluciones. Debe anticipar el error humano, planificando y estructurando flujos de trabajo (#[em workflows]) que protejan la integridad de la base de datos. 
           .col-lg-5.col-md-9.col-11
             img(src='@/assets/curso/temas/t2/slider1-2.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
@@ -81,7 +81,7 @@
         img(src='@/assets/curso/temas/t2/4.png', alt='')
       .col-lg-4.mb-3 
         img.mb-3.w-80x(src='@/assets/curso/temas/t2/5.svg', alt='')
-        p El entorno de Access ofrece el "Generador de macros", una interfaz limpia donde las acciones se seleccionan desde un catálogo desplegable y se apilan como bloques de construcción. Esta modularidad garantiza una coherencia pedagógica formidable, ya que permite visualizar la secuencia de arriba hacia abajo, facilitando la depuración y comprensión del algoritmo
+        p El entorno de Access ofrece el "Generador de macros", una interfaz limpia donde las acciones se seleccionan desde un catálogo desplegable y se apilan como bloques de construcción. Esta modularidad garantiza una coherencia pedagógica formidable, ya que permite visualizar la secuencia de arriba hacia abajo, facilitando la depuración y comprensión del algoritmo.
 
     .row.bgc-1.align-items-center.p-2.p-md-4.mb-5(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-4
@@ -126,7 +126,7 @@
          LineaTiempoD.color-acento-botones
           div(numero="1" titulo="Paso 1: análisis del requerimiento")
             p.mb-1 Definir con claridad el objetivo que se desea lograr. 
-            p.mb-0 Ejemplo: crear un botón que permita abrir el formulario de “calificaciones del estudiante”, únicamente si el estudiante se encuentra previamente matriculado
+            p.mb-0 Ejemplo: crear un botón que permita abrir el formulario de “calificaciones del aprendiz”, únicamente si el aprendiz se encuentra previamente matriculado
           div(numero="2" titulo="Paso 2: identificación del evento detonante")
             p.mb-0 Determinar el momento en que se ejecutará la acción. En este caso, corresponde al evento #[b “al hacer clic”] sobre el botón del menú principal.
           div(numero="3" titulo="Paso 3: apertura del generador de macros")
@@ -141,9 +141,9 @@
                 span.mb-0 En la rama verdadera #[b (Entonces)], se selecciona la acción #[b Abrir Formulario], especificando el formulario #[b “Frm_Calificaciones”]. 
               li.mb-0
                 i.fas.fa-cloud
-                span.mb-0 Se añade la ramificación #[b Sino #[em (Else)]] para contemplar el escenario alterno. En esta sección, se configura la acción #[b Cuadro De Mensaje], incluyendo una alerta pedagógica como: “Atención: el estudiante seleccionado no cuenta con una matrícula activa. Por favor, verifique el estado antes de asignar calificaciones.”  
+                span.mb-0 Se añade la ramificación #[b Sino #[em (Else)]] para contemplar el escenario alterno. En esta sección, se configura la acción #[b Cuadro De Mensaje], incluyendo una alerta pedagógica como: “Atención: el aprendiz seleccionado no cuenta con una matrícula activa. Por favor, verifique el estado antes de asignar calificaciones.”  
           div(numero="6" titulo="Paso 6: guardado y prueba")
-            p.mb-0 Se guarda la macro y se retorna a la vista de formulario para realizar pruebas. Es fundamental simular distintos escenarios (estudiante activo e inactivo) con el fin de validar la correcta ejecución del algoritmo.
+            p.mb-0 Se guarda la macro y se retorna a la vista de formulario para realizar pruebas. Es fundamental simular distintos escenarios (aprendiz activo e inactivo) con el fin de validar la correcta ejecución del algoritmo.
 
     .row.justify-content-center(data-aos="fade")
       .col-lg-8.mb-4.mb-lg-0
@@ -152,10 +152,10 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/t2/7.png')})`}"
           )
           .bloque-texto-g__texto.p-3
-            p.mb-0 Al dominar este proceso, el estudiante materializa el diseño de la arquitectura de datos. Comprende que las tablas y sus atributos (diseñados en la fase previa) son las variables que nutren estas condiciones lógicas. Una macro no puede evaluar si un estudiante está "Activo" si, previamente, no se diseñó un campo con un tipo de dato "Texto Corto" o "Sí/No" con sus reglas de validación correspondientes. Esta es la secuencialidad temática que garantiza el éxito en la gestión de sistemas de información (Ramírez y Castro, 2023). 
+            p.mb-0 Al dominar este proceso, el aprendiz materializa el diseño de la arquitectura de datos. Comprende que las tablas y sus atributos (diseñados en la fase previa) son las variables que nutren estas condiciones lógicas. Una macro no puede evaluar si un aprendiz está "Activo" si, previamente, no se diseñó un campo con un tipo de dato "Texto Corto" o "Sí/No" con sus reglas de validación correspondientes. Esta es la secuencialidad temática que garantiza el éxito en la gestión de sistemas de información (Ramírez y Castro, 2023). 
       .col-lg-4
         img.mb-3.mb-lg-4.w-80x(src='@/assets/curso/temas/t2/8.svg', alt='')
-        p El uso pedagógico de las macros empodera al estudiante. Le demuestra que la tecnología es maleable y que, a través de instrucciones lógicas, claras y estructuradas, es posible reducir la carga operativa de las organizaciones, minimizando la redundancia y maximizando la confiabilidad de los datos recolectados. 
+        p El uso pedagógico de las macros empodera al aprendiz. Le demuestra que la tecnología es maleable y que, a través de instrucciones lógicas, claras y estructuradas, es posible reducir la carga operativa de las organizaciones, minimizando la redundancia y maximizando la confiabilidad de los datos recolectados. 
 
 
     Separador
@@ -228,13 +228,13 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4 Empleabilidad de SQL en el entorno de trabajo de Microsoft Access 
 
-    p Microsoft Access posee una característica dual que lo convierte en una herramienta pedagógica excepcional: cuenta con una interfaz gráfica para el diseño de consultas llamada QBE (#[em Query By Example o consulta por ejemplo]) y, simultáneamente, posee un editor de texto subyacente de código SQL. 
+    p Microsoft Access posee una característica dual que lo convierte en una herramienta pedagógica excepcional: cuenta con una interfaz gráfica para el diseño de consultas llamada QBE (Query By Example o consulta por ejemplo) y, simultáneamente, posee un editor de texto subyacente de código SQL. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/13.png', alt='')
       .col-lg-8(data-aos="fade-left")
-        p Cuando un usuario sin conocimientos de programación arrastra tablas y campos en la cuadrícula de diseño de Access, el #[em software] está escribiendo silenciosamente el código SQL en segundo plano. Sin embargo, para cumplir con los estándares de formación técnica y tecnológica, el administrador de bases de datos debe ser capaz de prescindir de la cuadrícula gráfica y manipular directamente el código. Comprender el SQL puro es imperativo porque permite realizar consultas complejas (como subconsultas anidadas o uniones externas complejas) que la interfaz gráfica QBE a menudo no puede representar adecuadamente, además de garantizar que el aprendiz pueda migrar sus conocimientos a motores más robustos como SQL #[em Server, Oracle] o #[em PostgreSQL] en su futuro laboral (Sánchez, 2023). 
+        p Cuando un usuario sin conocimientos de programación arrastra tablas y campos en la cuadrícula de diseño de Access, el #[em software] está escribiendo silenciosamente el código SQL en segundo plano. Sin embargo, para cumplir con los estándares de formación técnica y tecnológica, el administrador de bases de datos debe ser capaz de prescindir de la cuadrícula gráfica y manipular directamente el código. Comprender el SQL puro es imperativo porque permite realizar consultas complejas (como subconsultas anidadas o uniones externas complejas) que la interfaz gráfica QBE a menudo no puede representar adecuadamente, además de garantizar que el aprendiz pueda migrar sus conocimientos a motores más robustos como SQL Server, Oracle o PostgreSQL en su futuro laboral (Sánchez, 2023). 
 
     .row.bgc-1.align-items-center.p-2.p-md-4.mb-5(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-4

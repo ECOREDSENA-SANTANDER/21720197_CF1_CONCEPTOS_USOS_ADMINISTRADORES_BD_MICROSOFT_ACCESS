@@ -703,7 +703,7 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        'Ha superado la actividad y demuestra sólidos conocimientos sobre la Gestión de bases de datos con Microsoft Access.',
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre la gestión de bases de datos con Microsoft Access.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },

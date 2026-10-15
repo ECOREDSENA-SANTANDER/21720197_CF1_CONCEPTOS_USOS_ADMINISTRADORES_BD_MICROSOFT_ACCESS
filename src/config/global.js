@@ -86,7 +86,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Integración con sistemas locales y ofimático',
+            titulo: 'Integración con sistemas locales y ofimáticos',
             hash: 't_3_1',
           },
           {
@@ -123,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF1_21720197_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -184,7 +184,7 @@ export default {
     {
       termino: 'Evento',
       significado:
-        'Acción reconocida por el software (como un clic del ratón, la apertura de un formulario o la pulsación de una tecla) que puede utilizarse para desencadenar la ejecución de una macro o código.',
+        'Acción reconocida por el <em>software</em> (como un clic del ratón, la apertura de un formulario o la pulsación de una tecla) que puede utilizarse para desencadenar la ejecución de una macro o código.',
     },
     {
       termino: 'Exportación',
@@ -219,7 +219,7 @@ export default {
     {
       termino: 'Programación orientada a eventos',
       significado:
-        'Paradigma de programación en el que el flujo de ejecución del software está determinado por las interacciones del usuario (eventos) sobre la interfaz gráfica.',
+        'Paradigma de programación en el que el flujo de ejecución del <em>software</em> está determinado por las interacciones del usuario (eventos) sobre la interfaz gráfica.',
     },
     {
       termino: 'QBE (<em>Query By Example</em>)',
@@ -250,35 +250,35 @@ export default {
   referencias: [
     {
       referencia:
-        'Fernández, P., & Ortiz, D. (2022). Didáctica de la programación y lenguajes estructurados en la educación técnica superior. Revista Iberoamericana de Educación Tecnológica, 14(2), 112-128.',
+        'Fernández, P., y Ortiz, D. (2022). Didáctica de la programación y lenguajes estructurados en la educación técnica superior. Revista Iberoamericana de Educación Tecnológica, 14(2), 112-128.',
     },
     {
       referencia:
-        'García, M., & Muñoz, L. (2021). Gestión de bases de datos relacionales en entornos educativos: Un enfoque constructivista. Editorial Síntesis Digital. ',
+        'García, M., y Muñoz, L. (2021). Gestión de bases de datos relacionales en entornos educativos: Un enfoque constructivista. Síntesis Digital. ',
     },
     {
       referencia:
-        'Gómez, H., & Vargas, S. (2024). Interoperabilidad de sistemas de información: Integración ofimática corporativa. Ediciones TIC y Productividad.',
+        'Gómez, H., y Vargas, S. (2024). Interoperabilidad de sistemas de información: Integración ofimática corporativa. Ediciones TIC y Productividad.',
     },
     {
       referencia:
-        'López, R., & Martínez, C. (2021). Pensamiento computacional y automatización en el aula del siglo XXI. Innovación Educativa Universitaria, 8(1), 45-60.',
+        'López, R., y Martínez, C. (2021). Pensamiento computacional y automatización en el aula del siglo XXI. Innovación Educativa Universitaria, 8(1), 45-60.',
     },
     {
       referencia:
-        'Martínez, C., & Silva, R. (2022). Arquitectura de datos y restricciones lógicas: Previniendo el error humano mediante software. Anales de la Informática Educativa, 33(4), 200-215. ',
+        'Martínez, C., y Silva, R. (2022). Arquitectura de datos y restricciones lógicas: Previniendo el error humano mediante <em>software</em>. Anales de la Informática Educativa, 33(4), 200-215. ',
     },
     {
       referencia:
-        'Morales, J., Torres, A., & Ramírez, E. (2021). Transformación digital y administración estratégica de datos. Ediciones de la Universidad Politécnica.',
+        'Morales, J., Torres, A., y Ramírez, E. (2021). Transformación digital y administración estratégica de datos. Ediciones de la Universidad Politécnica.',
     },
     {
       referencia:
-        'Pérez, L., & Domínguez, F. (2025). Bases de datos en la nube y trabajo colaborativo sincrónico. Revista Latinoamericana de Ingeniería de Software, 19(1), 77-92. ',
+        'Pérez, L., y Domínguez, F. (2025). Bases de datos en la nube y trabajo colaborativo sincrónico. Revista Latinoamericana de Ingeniería de Software, 19(1), 77-92. ',
     },
     {
       referencia:
-        'Ramírez, A., Castro, J., & Mendoza, L. (2023). Validación de la información y seguridad informática en sistemas locales. Perspectivas Tecnológicas, 11(3), 150-165.',
+        'Ramírez, A., Castro, J., y Mendoza, L. (2023). Validación de la información y seguridad informática en sistemas locales. Perspectivas Tecnológicas, 11(3), 150-165.',
     },
     {
       referencia:
@@ -291,7 +291,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional grado 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -321,12 +322,12 @@ export default {
       autores: [
         {
           nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseñador de contenidos',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador <em>full stack</em>',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

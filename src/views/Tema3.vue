@@ -30,7 +30,7 @@
 
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.1 Integración con sistemas locales y ofimático 
+      h2 3.1 Integración con sistemas locales y ofimáticos
 
     p.mb-4 La integración a nivel local se refiere al intercambio de información entre Microsoft Access y otros archivos o programas que residen en la misma computadora o red de área local (LAN). En el ámbito educativo y administrativo, la herramienta con la que Access interactúa de manera más frecuente es Microsoft Excel, seguida de los archivos de texto plano separados por comas (CSV). 
 
@@ -84,7 +84,7 @@
         img(src='@/assets/curso/temas/t3/2.svg', alt='')
       .col-lg-4.mb-3 
         img.mb-3.w-80x(src='@/assets/curso/temas/t3/3.svg', alt='')
-        p A diferencia de la importación tradicional (donde se crea una copia estática de los datos en el disco local), la vinculación a través de internet permite que Access actúe como una interfaz de usuario o "#[em Front - end]", mientras que los datos reales residen en un servidor web remoto o "#[em Back - end]". Esto significa que cualquier cambio realizado mediante formularios o consultas SQL en Access se actualizará en tiempo real en la nube, permitiendo el trabajo colaborativo simultáneo desde diferentes ubicaciones geográficas. 
+        p A diferencia de la importación tradicional (donde se crea una copia estática de los datos en el disco local), la vinculación a través de internet permite que Access actúe como una interfaz de usuario o "#[em front-end]", mientras que los datos reales residen en un servidor web remoto o "#[em back-end]". Esto significa que cualquier cambio realizado mediante formularios o consultas SQL en Access se actualizará en tiempo real en la nube, permitiendo el trabajo colaborativo simultáneo desde diferentes ubicaciones geográficas. 
 
     .bloque-texto-g.bloque-texto-g--inverso.bg3.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(

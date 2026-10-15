@@ -15,7 +15,7 @@
         img(src='@/assets/curso/temas/intro/1.png', alt='')
       .col-lg-8
         p Los contenidos se desarrollarán desde un enfoque pedagógico activo y constructivista, apoyado en el uso de las Tecnologías de la Información y la Comunicación (TIC). El proceso formativo está diseñado para articular cada concepto teórico con su aplicación práctica en contextos reales, facilitando la comprensión y apropiación del conocimiento. De este modo, el aprendizaje se concibe como una construcción progresiva y significativa, más allá de la simple acumulación de contenidos.
-        p Este curso adquiere una relevancia fundamental dentro del proceso formativo, ya que permite alcanzar el resultado de aprendizaje principal: diseñar bases de datos con una adecuada arquitectura de datos y gestionarlas mediante lenguajes de consulta en Microsoft Access. Al desarrollar estas competencias, el estudiante no solo fortalece su perfil técnico, sino que también potencia su capacidad de análisis, abstracción y pensamiento lógico, habilidades clave para adaptarse a las dinámicas cambiantes del entorno digital (García y Muñoz, 2021). 
+        p Este curso adquiere una relevancia fundamental dentro del proceso formativo, ya que permite alcanzar el resultado de aprendizaje principal: diseñar bases de datos con una adecuada arquitectura de datos y gestionarlas mediante lenguajes de consulta en Microsoft Access. Al desarrollar estas competencias, el aprendiz no solo fortalece su perfil técnico, sino que también potencia su capacidad de análisis, abstracción y pensamiento lógico, habilidades clave para adaptarse a las dinámicas cambiantes del entorno digital (García y Muñoz, 2021). 
 
     .row.justify-content-center.align-items-center           
       .col-lg-12
