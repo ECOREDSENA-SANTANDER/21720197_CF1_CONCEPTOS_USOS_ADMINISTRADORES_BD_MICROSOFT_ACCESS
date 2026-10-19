@@ -137,14 +137,6 @@ export default {
       },
     ],
   },
-  /*complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],*/
   glosario: [
     {
       termino: 'Atributo (propiedad del campo)',

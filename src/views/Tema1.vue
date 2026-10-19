@@ -112,7 +112,6 @@
               figure
                 img(src='@/assets/curso/temas/t1/fig1.png', alt='Captura de pantalla de Microsoft Access en vista de diseño de una tabla. En la parte superior se observan las columnas “Nombre del campo”, “Tipo de datos” y “Descripción (opcional)”. Se listan varios campos: “ID Producto” con tipo autonumérico, “Nombre_Producto” con texto corto, “Precio” con tipo moneda y “Descripción” con texto largo. Flechas señalan “1. Nombre del campo” y “2. Tipo de datos”. En la parte inferior se muestra el panel de “Propiedades del campo”, donde aparecen opciones como tamaño del campo, formato, máscara de entrada, valor predeterminado y regla de validación.')
 
-    p.mb-5 Mientras que los factores se manifiestan como hábitos, creencias o actitudes individuales, los obstáculos y bloqueos de la creatividad actúan como barreras que condicionan el proceso de generación de ideas y la capacidad de innovación. 
 
     .subt2.pb-2.mb-4(data-aos="fade-right")
       i.fas.fa-circle
