@@ -52,7 +52,7 @@
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
           .col-lg-5.col-11
             h4 Rol del docente 
-            p En la enseñanza de estos conceptos, el docente debe alejarse de la instrucción mecanicista ("haga clic aquí y luego allá"). Su rol es plantear escenarios problémicos de automatización, retando a los aprendizs con preguntas como: "¿cómo evitamos que un usuario borre un registro por accidente?". 
+            p En la enseñanza de estos conceptos, el docente debe alejarse de la instrucción mecanicista ("haga clic aquí y luego allá"). Su rol es plantear escenarios problémicos de automatización, retando a los aprendiz con preguntas como: "¿cómo evitamos que un usuario borre un registro por accidente?". 
           .col-lg-5.col-md-9.col-11
             img(src='@/assets/curso/temas/t2/slider1-1.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
@@ -126,7 +126,7 @@
          LineaTiempoD.color-acento-botones
           div(numero="1" titulo="Paso 1: análisis del requerimiento")
             p.mb-1 Definir con claridad el objetivo que se desea lograr. 
-            p.mb-0 Ejemplo: crear un botón que permita abrir el formulario de “calificaciones del aprendiz”, únicamente si el aprendiz se encuentra previamente matriculado
+            p.mb-0 Ejemplo: crear un botón que permita abrir el formulario de “calificaciones del aprendiz”, únicamente si el aprendiz se encuentra previamente matriculado.
           div(numero="2" titulo="Paso 2: identificación del evento detonante")
             p.mb-0 Determinar el momento en que se ejecutará la acción. En este caso, corresponde al evento #[b “al hacer clic”] sobre el botón del menú principal.
           div(numero="3" titulo="Paso 3: apertura del generador de macros")
