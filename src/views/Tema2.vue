@@ -52,7 +52,7 @@
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
           .col-lg-5.col-11
             h4 Rol del docente 
-            p En la enseñanza de estos conceptos, el docente debe alejarse de la instrucción mecanicista ("haga clic aquí y luego allá"). Su rol es plantear escenarios problémicos de automatización, retando a los aprendiz con preguntas como: "¿cómo evitamos que un usuario borre un registro por accidente?". 
+            p En la enseñanza de estos conceptos, el docente debe alejarse de la instrucción mecanicista ("haga clic aquí y luego allá"). Su rol es plantear escenarios problémicos de automatización, retando a los aprendices con preguntas como: "¿cómo evitamos que un usuario borre un registro por accidente?". 
           .col-lg-5.col-md-9.col-11
             img(src='@/assets/curso/temas/t2/slider1-1.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4.mb-5
